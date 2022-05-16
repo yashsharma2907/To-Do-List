@@ -1,0 +1,82 @@
+
+
+.content{
+  background-image: url('bg-image.jpeg');
+ background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: fixed;
+  height: 100vh;
+}
+
+.to-do-heading{
+  text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 3rem;
+font-weight: bold;
+line-height: 3rem;
+padding-top: 5%;
+}
+.tagline{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+font-size: 2rem;
+line-height: 3rem;
+}
+.taskss{
+  padding: 3%;
+}
+.forms{
+  display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+      font-family: 'Oxygen', sans-serif;
+    line-height: 2rem;
+    color: #180A0A;
+    background-color:#FEFBE7;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1rem 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.buttons{
+  display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #2a584b;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1.5rem;
+      border-radius: 1rem 0;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.buttons:disabled{
+  pointer-events: none;
+  opacity: 0.65;
+}
+.list-to-do{
+      padding: 3rem;
+      margin: 1rem;
+      border-radius: 0.75rem 0 ;
+      box-sizing: content-box;
+}
+li{
+  margin: 0.15rem;
+  border-radius: 0.25rem;
+}
+#ultasks li.done{
+  color: #6c757d;
+  text-decoration: line-through;
+}
