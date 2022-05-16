@@ -80,3 +80,44 @@ li{
   color: #6c757d;
   text-decoration: line-through;
 }
+
+
+@media screen and (max-width:1000px){
+  .content{
+   background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    height: 100vh;
+    width: 100%;
+  }
+  .content h1{
+    padding-top: 400px;
+
+    font-size:5rem;;
+  }
+  .form{
+    border-radius: 20px;
+    height: 4rem;
+    font-size: 2rem;
+  }
+  .form-label{
+    font-size: 1.75rem;
+  }
+  .buttons{
+    border-radius: 30px 0 30px 0 ;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 1.5rem;
+
+  }
+  .list-to-do{
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: content-box;
+  }
+  .list-group-item{
+    font-size: 1.75rem;
+  }
+
+
